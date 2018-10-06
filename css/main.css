@@ -2,8 +2,12 @@ body {
   background-color: #fdf6e3;
 }
 
-header, footer {
-  font-size: 1.5 rem;
+header {
+  font-size: 1.5rem;
+}
+
+footer p {
+  font-size: 1.5rem;
 }
 
 nav ul {
@@ -22,7 +26,7 @@ nav ul {
   color: #93a1a1;
 }
 
-.wrapper: first-child {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
@@ -39,7 +43,7 @@ a:not(.no-highlight) {
 }
 
 ol li:first-child {
-   color: #719e47;
+  color: #719e47;
 }
 
 ol li:last-child {
