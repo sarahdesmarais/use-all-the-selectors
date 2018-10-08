@@ -30,7 +30,7 @@ nav ul {
   background-color: #b58900;
 }
 
-h2 + strong {
+.dfn p + strong {
   color: #fff;
 }
 
